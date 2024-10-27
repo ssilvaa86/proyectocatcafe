@@ -35,7 +35,7 @@
     </nav>
 
     <main>
-        <div class="carousel">
+        <section class="carousel">
             <div class="carousel__inner">
                 <div class="carousel__item carousel__item--active">
                     <img src="img/Gato1.jpg" class="carousel__image" alt="Gato 1">
@@ -49,56 +49,59 @@
             </div>
             <button class="carousel__control carousel__control--prev">Prev</button>
             <button class="carousel__control carousel__control--next">Next</button>
-        </div>
+        </section>
 
-        <section>
-            <div class="container-fluid text-center m-4">
-                <header>
-                    <h1 class="section__title">Bienvenidos</h1>
-                </header>
-                <p class="section__text">Este es un espacio pensado para amantes de los felinos y del buen café. Podrás relajarte, disfrutar de la mejor selección de bebidas, pasteles y snacks mientras compartes momentos únicos con nuestros compañeros de cuatro patas. Nuestros gatos están ansiosos por conocerte y recibir todas tus caricias. Recuerda que al visitarnos, también apoyas una noble causa, ya que muchos de ellos están en adopción, esperando encontrar un hogar lleno de amor.</p>
-                <p class="section__text">Gracias por elegirnos para tu momento de relax!</p>
+        <section class="welcome">
+            <div class="welcome__content">
+                <h1 class="welcome">Bienvenidos</h1>
+                <p class="welcome__text">Este es un espacio pensado para amantes de los felinos y del buen café. Podrás
+                    relajarte, disfrutar de la mejor selección de bebidas, pasteles y snacks mientras compartes momentos
+                    únicos con nuestros compañeros de cuatro patas. Nuestros gatos están ansiosos por conocerte y
+                    recibir todas tus caricias. Recuerda que al visitarnos, también apoyas una noble causa, ya que
+                    muchos de ellos están en adopción, esperando encontrar un hogar lleno de amor.</p>
+                <p class="welcome__text">Gracias por elegirnos para tu momento de relax!</p>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container-fluid text-center bg-danger-subtle m-4">
-            <div class="row align-items-start">
-                <div class="col m-3">
-                    <a href="#">
+        <div class="footer__container">
+            <div class="footer__row">
+                <div class="footer__column">
+                    <a class="footer__icon">
                         <img src="img/quienes.png" alt="Quienes Somos" class="footer__image" width="80" height="80">
                     </a>
-                    <header>
-                        <h3 class="footer__title">Quiénes Somos</h3>
-                    </header>
-                    <p class="footer__text">Somos un Cat Café donde el amor por los felinos y el buen café se unen para crear momentos únicos.</p>
+                    <h3 class="footer__title">Quiénes Somos</h3>
+                    <p class="footer__text">Somos un Cat Café donde el amor por los felinos y el buen café se unen para
+                        crear momentos únicos.</p>
                 </div>
-                <div class="col m-3">
-                    <a href="#">
+                <div class="footer__column">
+                    <a class="footer__icon" href="www.lun.com">
                         <img src="img/servicios.png" alt="Servicios" class="footer__image" width="80" height="80">
                     </a>
-                    <header>
-                        <h3 class="footer__title">Servicios</h3>
-                    </header>
-                    <p class="footer__text">Ofrecemos deliciosas bebidas, snacks, y un espacio acogedor donde compartir con nuestros adorables gatitos.</p>
+
+                    <h3 class="footer__title">Servicios</h3>
+
+                    <p class="footer__text">Ofrecemos deliciosas bebidas, snacks, y un espacio acogedor donde compartir
+                        con nuestros adorables gatitos.</p>
                 </div>
-                <div class="col m-3">
-                    <a href="#">
+                <div class="footer__column">
+                    <a class="footer__icon" href="#">
                         <img src="img/reservas.png" alt="Reservas" class="footer__image" width="80" height="80">
                     </a>
-                    <header>
-                        <h3 class="footer__title">Reservas</h3>
-                    </header>
-                    <p class="footer__text">Asegura tu mesa y disfruta de un rato inolvidable con nuestros gatitos. ¡Haz tu reserva aquí!</p>
+
+                    <h3 class="footer__title">Reservas</h3>
+
+                    <p class="footer__text">Asegura tu mesa y disfruta de un rato inolvidable con nuestros gatitos. ¡Haz
+                        tu reserva aquí!</p>
                 </div>
-                <div class="col m-3">
-                    <a href="#">
+                <div class="footer__column">
+                    <a class="footer__icon" href="#">
                         <img src="img/contacto.png" alt="Contacto" class="footer__image" width="80" height="80">
                     </a>
-                    <header>
-                        <h3 class="footer__title">Contacto</h3>
-                    </header>
+
+                    <h3 class="footer__title">Contacto</h3>
+
                     <p class="footer__text">Te invitamos a ponerte en contacto con nosotros para más ayuda.</p>
                 </div>
             </div>
