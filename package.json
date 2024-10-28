@@ -1,0 +1,11 @@
+{
+  "name": "tercera-tarea",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+    "scss:compile": "sass assets/scss/main.scss assets/css/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

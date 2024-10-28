@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Cat Café</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <title>Cat Café "El Baguetito"</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
 </head>
 
 <body>
     <nav class="navbar">
         <div class="container-fluid">
-            <a class="navbar__logo" href="#">
-                <img src="img/logocat.jpg" alt="Cat Café" class="navbar__logo-image" width="80" height="80">
+            <a class="navbar__logo" href="#">                
+                <img src="assets/img/logocat.jpg" alt="Cat Café" class="navbar__logo-image" width="80" height="80">
             </a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="navbar__link navbar__link--active" aria-current="page" href="#">Home</a>
+            
+            <button id="toggle-button" class="navbar__toggle" type="button">
+                <p class="navbar__icon" alt="Menu">☰</p>
+              </button>
+            <div class="navbar__menu" id="navbar-menu">
+                <ul class="navbar__nav">
+                    <li class="nav__item">
+                        <a class="navbar__link navbar__link--active" aria-current="page" href="#">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="navbar__link" href="#">Features</a>
+                        <a class="navbar__link" href="#">Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="navbar__link" href="#">Pricing</a>
+                        <a class="navbar__link" href="#">Reservas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="navbar__link navbar__link--disabled" aria-disabled="true">Disabled</a>
+                        <a class="navbar__link navbar__link--disabled" aria-disabled="true">Reclamos</a>
                     </li>
                 </ul>
             </div>
@@ -38,13 +42,13 @@
         <section class="carousel">
             <div class="carousel__inner">
                 <div class="carousel__item carousel__item--active">
-                    <img src="img/Gato1.jpg" class="carousel__image" alt="Gato 1">
+                    <img src="assets/img/Gato1.jpg" class="carousel__image" alt="Gato 1">
                 </div>
                 <div class="carousel__item">
-                    <img src="img/gato2.jpg" class="carousel__image" alt="Gato 2">
+                    <img src="assets/img/gato2.jpg" class="carousel__image" alt="Gato 2">
                 </div>
                 <div class="carousel__item">
-                    <img src="img/gato3.jpg" class="carousel__image" alt="Gato 3">
+                    <img src="assets/img/gato3.jpg" class="carousel__image" alt="Gato 3">
                 </div>
             </div>
             <button class="carousel__control carousel__control--prev">Prev</button>
@@ -53,7 +57,7 @@
 
         <section class="welcome">
             <div class="welcome__content">
-                <h1 class="welcome">Bienvenidos</h1>
+                <h1 class="welcome">CAT CAFÉ "EL BAGUETITO"</h1>
                 <p class="welcome__text">Este es un espacio pensado para amantes de los felinos y del buen café. Podrás
                     relajarte, disfrutar de la mejor selección de bebidas, pasteles y snacks mientras compartes momentos
                     únicos con nuestros compañeros de cuatro patas. Nuestros gatos están ansiosos por conocerte y
@@ -69,15 +73,15 @@
             <div class="footer__row">
                 <div class="footer__column">
                     <a class="footer__icon">
-                        <img src="img/quienes.png" alt="Quienes Somos" class="footer__image" width="80" height="80">
+                        <img src="assets/img/quienes.png" alt="Quienes Somos" class="footer__image" width="80" height="80">
                     </a>
                     <h3 class="footer__title">Quiénes Somos</h3>
                     <p class="footer__text">Somos un Cat Café donde el amor por los felinos y el buen café se unen para
                         crear momentos únicos.</p>
                 </div>
                 <div class="footer__column">
-                    <a class="footer__icon" href="www.lun.com">
-                        <img src="img/servicios.png" alt="Servicios" class="footer__image" width="80" height="80">
+                    <a class="footer__icon" href="#">
+                        <img src="assets/img/servicios.png" alt="Servicios" class="footer__image" width="80" height="80">
                     </a>
 
                     <h3 class="footer__title">Servicios</h3>
@@ -87,7 +91,7 @@
                 </div>
                 <div class="footer__column">
                     <a class="footer__icon" href="#">
-                        <img src="img/reservas.png" alt="Reservas" class="footer__image" width="80" height="80">
+                        <img src="assets/img/reservas.png" alt="Reservas" class="footer__image" width="80" height="80">
                     </a>
 
                     <h3 class="footer__title">Reservas</h3>
@@ -97,7 +101,7 @@
                 </div>
                 <div class="footer__column">
                     <a class="footer__icon" href="#">
-                        <img src="img/contacto.png" alt="Contacto" class="footer__image" width="80" height="80">
+                        <img src="assets/img/contacto.png" alt="Contacto" class="footer__image" width="80" height="80">
                     </a>
 
                     <h3 class="footer__title">Contacto</h3>
@@ -107,6 +111,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
